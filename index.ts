@@ -1,6 +1,6 @@
 import * as Sentry from "@sentry/node";
 
-import { documentSummarizer } from "./document-summarizer";
+import { documentSummarizer } from "./summarizer/document-summarizer";
 const { createClient } = require("@supabase/supabase-js");
 
 Sentry.init({
